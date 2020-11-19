@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    height: 100vh;
+}
+
+#root{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    margin-top: 20px;
+    font-size: 20px;
+    height: 15vh;
+}
+
+/* Calculator */
+.calculator{
+    width: 80vw;
+    max-width: 1000px;
+    
+}
+/* Label */
+.label{
+    text-align: right;
+    line-height: 15vh;
+    height: 15vh;
+    font-size: 60px;
+}
+
+/* ButtonWrapper */
+.button-wrapper{
+    height: 70vh;
+    max-height: 100vw;
+}
+
+/* ButtonRow */
+.button-row{
+    height: 25%;
+}
+
+/* Button */
+button{
+    border-style: none;
+}
+.btn{
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    border: 1px black solid;
+    font-size: 50px;
+    background-color: gainsboro;
+}
+
+.equal-button{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+
+.equal-button .btn{
+    width: 100%;
+}
